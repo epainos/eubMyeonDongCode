@@ -90,7 +90,7 @@ def myf행정동법정동코드변환(전체주소):
 ########################################################## 시작해보자
 
 
-conn = sqlite3.connect("국토교통부_전국 법정동_20211217.sqlite")
+conn = sqlite3.connect("myCodes.sqlite")
 cur = conn.cursor()
 
 
